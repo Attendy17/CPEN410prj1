@@ -1,1 +1,14 @@
+Commando para conectarse a mysql via terminal
+
+cd "\Program Files"                  -Directorio en files 
+cd "MySQL\MySQL Server 8.0"          -Seleccion de Archivo 
+cd bin                               -Selecionando libreria bin
+
+mysql -u root -p                     -Entrando al MySQL como root 
+password: 1234                       -contrasena 
+
+mysql -u student -p                  -Entrando a MySQL como estudiante
+password: password                   -contrasena 
+
+use cpen410                          -seleccionando base de datos "cpen410"
 
