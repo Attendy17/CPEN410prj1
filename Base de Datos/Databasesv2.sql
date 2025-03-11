@@ -1,6 +1,6 @@
 -- Crear el esquema y seleccionarlo
-CREATE SCHEMA `proyecto`;
-USE `proyecto`;
+CREATE SCHEMA `cpen410p1`;
+USE `cpen410p1`;
 
 ------------------------------------------------------------
 -- Tabla para las páginas (webPageGood)
