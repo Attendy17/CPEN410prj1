@@ -94,3 +94,11 @@ CREATE TABLE user_roles (
     UNIQUE (user_id, role_id)
 );
 
+CREATE TABLE images (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    image_url VARCHAR(255) NOT NULL,
+    upload_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
